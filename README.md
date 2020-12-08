@@ -44,9 +44,11 @@ We chose some guilding principles based on our experiences with school, work, an
  7) Our solution will be plug-and-play on any Windows machine.
 
 ### Introduction to the project
-Objective Definition:
+Objective Definition
 
-`Produce two human input devices to control flight simulation video games on Windows.`
+```
+Produce two human input devices to control flight simulation video games on Windows.
+```
 
 Requirements Specification
 ```
@@ -60,11 +62,19 @@ Our solution must
  - not require configuration or maintenance
 ```
 
-### Background: research of similar, existing solutions
-`commercial products, do-it-yourself projects, include academic references`
+### Background research: existing solutions
+#### Commercial Products
+Company | Product | Price
+:-----:|:-----:|:-----:
+R | [DSD Dlight Series FLT1](https://www.rseat-europe.com/DSD-Flight-Series-FLT1-ButtonBox-FlightSim-Hardware) | $ 295.79
 
+
+#### Do-it-yourself Projects
+Loren ipsum
 #### Attribution
 This project is based on the ["Sim Racing Button Box" project by Hobbylex on instructables.com](https://www.instructables.com/Sim-Racing-Button-Box/)
+#### Academic references to the above web pages
+Loren ipsum
 
 ### Our design process
 After specifying our project requirements, we were able to survey the set of existing solutions
