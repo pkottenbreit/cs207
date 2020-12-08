@@ -19,22 +19,60 @@ The following are appendices and do not contribute to page count
  
 # CS 207 Final Project
 
+
+
+
+
+
+
+
 ![](https://github.com/pkottenbreit/cs207/blob/main/DSC_0037%20(Large).png)
 ## Project Overview
 
-### Introduction to the project (itself: not the class assignment)
-Our objective is to produce an input device to control flight simulation video games.
+### About us
+We are Braden and Philip, two computer science students who live on the same block and happen to be third cousins. Braden enjoys playing Flight Simulator X, DCS World, and MSFS 2020 with his cousin Josh in Saskatoon (\*\*cough... online gamers). Philip LOVES problem-solving. After Braden convinced Philip to join this class over a 'cohort family supper', it was only natural for us to partner up for the final project.
+When it came time to choose a project, we had two practical problems that could be solved with an arduino: 1) build an SMS-text-notification-triggered-door-sensor to catch thieves stealing from the Breit's quansit and 2) create a better way of playing video games than having to use a keyboard. Naturally, we went with the more compelling problem and set to work building a plug-and-play, USB video game interface.
 
-### Background (the playing field of existing solutions: commercial products, do-it-yourself projects, references)
+### Our values
+We chose some guilding principles based on our experiences with school, work, and programming:
+ 1) We will not waste time creating artificial complexity;
+ 2) We will not waste materials by being lazy or thoughtless;
+ 3) We will not write to fill paragraphs, but will say only what is needed;
+ 4) Our work will speak for itself and rarely require additional explanation;
+ 5) Our solution will be reproducible by Braden's cousin;
+ 6) Our solution will be robust and stand the test of time;
+ 7) Our solution will be plug-and-play on any Windows machine.
+
+### Introduction to the project
+Objective Definition:
+`Produce two human input devices to control flight simulation video games on Windows.`
+
+Requirements Specificayion
+```
+Our solution must
+ - be aestetic
+ - be plug-and-play on Windows
+ - be connected by USB-type-A
+ - be made to last, by design (casing, switches, internal computing)
+ - be repairable by design in case a component does break
+ - not depend on the availability of existing software solutions
+ - not require configuration or maintenance
+```
+
+### Background: research of similar, existing solutions
+`commercial products, do-it-yourself projects, include academic references`
+
+#### Attribution
 This project is based on the ["Sim Racing Button Box" project by Hobbylex on instructables.com](https://www.instructables.com/Sim-Racing-Button-Box/)
 
-Our modification to improve existing products for less. Because flight controls (implemented as switched) need to be left on, we modified the design to no longer require a matrix. We designed 3 different ways to accomplish our objective and modification, each with their own drawbacks.
+### Our design process
+After specifying our project requirements, we were able to survey the set of existing solutions
+Our modification to improve existing products for less.
+Because flight controls (implemented as switched) need to be left on, we modified the design to no longer require a matrix. We designed 3 different ways to accomplish our objective and modification, each with their own drawbacks.
 
-### Our Motivation
-Braden has been playing Flight Simulator X, DCS World, and MSFS 2020 with his cousin.
 
-### Final Solution, WHY
-To fit plug-and-play principle and make our project as robust (system-integrated) as possible, we went with the no-code solution
+
+
 
 
 
@@ -77,6 +115,9 @@ To fit plug-and-play principle and make our project as robust (system-integrated
 ![](https://github.com/pkottenbreit/cs207/blob/main/ezgif-7-4845a1ead6e1.gif)
 
 ## Going Forward
+
+### Final Solution, WHY
+To fit plug-and-play principle and make our project as robust (system-integrated) as possible, we went with the no-code solution
 
 Additional recommmendations to further improve this project.
 Discussion of our initial milestones vs. actual dates.
