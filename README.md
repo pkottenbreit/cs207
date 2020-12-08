@@ -31,7 +31,7 @@ The following are appendices and do not contribute to page count
 
 ### About us
 We are Braden and Philip, two computer science students who live on the same block and happen to be third cousins. Braden enjoys playing Flight Simulator X, DCS World, and MSFS 2020 with his cousin Josh in Saskatoon (\*\*cough... online gamers). Philip LOVES problem-solving. After Braden convinced Philip to join this class over a 'cohort family supper', it was only natural for us to partner up for the final project.
-When it came time to choose a project, we had two practical problems that could be solved with an arduino: 1) build an SMS-text-notification-triggered-door-sensor to catch thieves stealing from the Breit's quansit and 2) create a better way of playing video games than having to use a keyboard. Naturally, we went with the more compelling problem and set to work building a plug-and-play, USB video game interface.
+When it came time to choose a project, we had two practical problems that could be solved with an arduino: 1) build an SMS-text-notification-triggered-door-sensor to catch thieves stealing from the Breit's farm and 2) create a better way of playing video games than having to use a keyboard. Naturally, we went with the more compelling problem and set to work building a plug-and-play, USB video game interface.
 
 ### Our values
 We chose some guilding principles based on our experiences with school, work, and programming:
