@@ -8,8 +8,6 @@ The following are appendices and do not contribute to page count
  - photographs of implementated circuits;
  - physical hardware designs;
  
-## Delete above this heading
- 
  
  
  
@@ -66,8 +64,9 @@ Our solution must
 #### Commercial Products
 Company | Product | Price
 :-----:|:-----:|:-----:
-R | [DSD Dlight Series FLT1](https://www.rseat-europe.com/DSD-Flight-Series-FLT1-ButtonBox-FlightSim-Hardware) | $ 295.79
-SimRacing4U | [USB or PS4 Racing Button Box](https://simracing4u.myonline.store/a-58497787/usb-button-boxes-for-sim-racing-and-flight-simulators/pc-or-ps4-usb-26-function-all-metallic-buttons-back-lit-red-button-box-sim-racing-and-flight-simulators/#description)
+RSeat | [DSD Dlight Series FLT1](https://www.rseat-europe.com/DSD-Flight-Series-FLT1-ButtonBox-FlightSim-Hardware) | $ 295.79
+SimRacing4U | [USB or PS4 Racing Button Box](https://simracing4u.myonline.store/a-58497787/usb-button-boxes-for-sim-racing-and-flight-simulators/pc-or-ps4-usb-26-function-all-metallic-buttons-back-lit-red-button-box-sim-racing-and-flight-simulators/#description) | $155.01
+R | 
 
 
 #### Do-it-yourself Projects
@@ -93,8 +92,8 @@ Because flight controls (implemented as switched) need to be left on, we modifie
 
 
 
+![](https://github.com/pkottenbreit/cs207/blob/main/ezgif-7-4845a1ead6e1.gif)
 
-![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201207_211711012.jpg)
 ## User Manual
 
 
@@ -124,7 +123,7 @@ Because flight controls (implemented as switched) need to be left on, we modifie
 
 
 
-![](https://github.com/pkottenbreit/cs207/blob/main/ezgif-7-4845a1ead6e1.gif)
+![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201207_211711012.jpg)
 
 ## Going Forward
 
