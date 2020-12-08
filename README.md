@@ -1,16 +1,34 @@
+## Requirements of this Project Writeup
+
+10-13 pages: shorter is OK it is says everything we need it to (but this is unlikely)
+
+The following are appendices and do not contribute to page count
+ - circuit designs;
+ - code listings for all code; (excluding publicly available libraries you included)
+ - photographs of implementated circuits;
+ - physical hardware designs;
+ 
+## Delete above this heading
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 # CS 207 Final Project
 
 ![](https://github.com/pkottenbreit/cs207/blob/main/DSC_0037%20(Large).png)
 ## Project Overview
 
-### Introduction
+### Introduction to the project (itself: not the class assignment)
 Our objective is to produce an input device to control flight simulation video games.
 
-### Background
+### Background (the playing field of existing solutions: commercial products, do-it-yourself projects, references)
 This project is based on the ["Sim Racing Button Box" project by Hobbylex on instructables.com](https://www.instructables.com/Sim-Racing-Button-Box/)
 
-### Our Modification
-Because flight controls (implemented as switched) need to be left on, we modified the design to no longer require a matrix. We designed 3 different ways to accomplish our objective and modification, each with their own drawbacks.
+Our modification to improve existing products for less. Because flight controls (implemented as switched) need to be left on, we modified the design to no longer require a matrix. We designed 3 different ways to accomplish our objective and modification, each with their own drawbacks.
 
 ### Our Motivation
 Braden has been playing Flight Simulator X, DCS World, and MSFS 2020 with his cousin.
@@ -19,16 +37,45 @@ Braden has been playing Flight Simulator X, DCS World, and MSFS 2020 with his co
 To fit plug-and-play principle and make our project as robust (system-integrated) as possible, we went with the no-code solution
 
 
+
+
+
+
+
+
+
 ![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201207_211711012.jpg)
-## Instructions
+## User Manual
 
-### Materials List
 
-### Step-By-Step Guide
+### Step-By-Step Guide To Recreate This Project
+
+#### Step 1: Gather the needed materials
+```
+ - material 1
+ - material 2
+ - material 3
+```
+
+#### Step 2:
+```
+
+
+```
+
+#### Step 3:
+```
+
+```
+
+
+
+
+
 
 
 ![](https://github.com/pkottenbreit/cs207/blob/main/ezgif-7-4845a1ead6e1.gif)
-PPICTURE HERE
+
 ## Going Forward
 
 Additional recommmendations to further improve this project.
