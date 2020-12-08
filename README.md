@@ -45,9 +45,10 @@ We chose some guilding principles based on our experiences with school, work, an
 
 ### Introduction to the project
 Objective Definition:
+
 `Produce two human input devices to control flight simulation video games on Windows.`
 
-Requirements Specificayion
+Requirements Specification
 ```
 Our solution must
  - be aestetic
