@@ -62,20 +62,32 @@ Our solution must
 
 ### Background research: existing solutions
 #### Commercial Products
-Company | Product | Price | Critical Drawback
+Company | Product | Price | Biggest Drawback
 :-----:|:-----:|:-----:|:-----:
 RSeat | [DSD Dlight Series FLT1](https://www.rseat-europe.com/DSD-Flight-Series-FLT1-ButtonBox-FlightSim-Hardware) | $ 295.79 | price
 SimRacing4U | [USB or PS4 Racing Button Box](https://simracing4u.myonline.store/a-58497787/usb-button-boxes-for-sim-racing-and-flight-simulators/pc-or-ps4-usb-26-function-all-metallic-buttons-back-lit-red-button-box-sim-racing-and-flight-simulators/#description) | $155.01 | price
 Sim Rig Direct | [S2RD6](https://www.ebay.com/itm/Button-Box-for-Sim-Racing-Game-Flight-Simulator-ETS-ATS-Control-Panel-Sim-Rig-/153511554953) | $223.17 | price
+Logitech | [G Saitek Pro](https://www.newegg.ca/p/N82E16826197233?item=N82E16826197233) | $159.89 | price
+ShakePrint | [ClassEcho](https://www.etsy.com/ca/listing/861158855/class-echo-microsoft-flight-simulator) | $100.00 | price
+TotalControls | [Multifunction Button Box](https://www.hackster.io/news/total-controls-multi-function-button-box-brings-switches-knobs-and-more-to-any-usb-capable-system-6485588e5cd3) | $452.71 | price
+BlackHog.com | [b-explorer Model B](https://www.black-hog.com/product/b-explorer-04/) | $200.25 | price
 
 
 
 #### Do-it-yourself Projects
 
-Project | Website | Difficulty | Price | Critical Drawback
+Project | Website | Difficulty | Price | Biggest Drawback
 :-----:|:-----:|:-----:|:-----:|:-----:
-[Virtual Button Box](http://www.stryder-it.de/simdashboard/help/en/For_PC_Gamers/Advanced/Create_a_virtual_Button_Box_for_Microsoft_Flight_Simulator) | www.stryder-it.de | Easy | Free | Virtual
-[Knob Box](https://forums.flightsimulator.com/t/knob-box/313546) | forums.flightsimulator.com | Medium | $$$ | price
+[Virtual Button Box](http://www.stryder-it.de/simdashboard/help/en/For_PC_Gamers/Advanced/Create_a_virtual_Button_Box_for_Microsoft_Flight_Simulator) | [www.stryder-it.de](www.stryder-it.de) | Easy | Free | Virtual
+[Knob Box](https://forums.flightsimulator.com/t/knob-box/313546) | [forums.flightsimulator.com](forums.flightsimulator.com) | Medium | $$$ | price
+[SIM Racing Button Box](https://amstudioprojects.com/product/32-function-button-box-guide/) | [amstudioprojects.com](amstudioprojects.com) | Easy | $ | Matrix Limits Using Multiple Switches
+[68-Input USB Control Panel](https://imgur.com/a/PPfPDja) | [imgur.com](imgur.com) | Hard | $$$ | Custom Printed PCB
+[KerbalController](https://www.instructables.com/KerbalController-a-Custom-Control-Panel-for-Rocket/) | [instructables.com](instructables.com) | Hard | $$$ | Not launching rockets
+[Button Box for Flight Simulator](https://www.thingiverse.com/thing:4367136) | [thingiverse.com](www.thingiverse.com) | Easy | $$ | Needs 3D Printer
+[Universal UFC](https://www.instructables.com/Universal-UFC-for-Plane-Simulators-for-Less-Than-1/) | [instructables.com](instructables.com) | Med | $$ | 
+
+
+
 
 
 
