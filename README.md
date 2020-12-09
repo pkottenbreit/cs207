@@ -263,10 +263,10 @@ Wrote the project write-up, with feedback from Braden
 # Appendices
 
 ## Appendix 1: final wiring design using Leo Bodnar BBI-32
-[](https://github.com/pkottenbreit/cs207/blob/main/Wiring%20Diagram.jpg)
+![](https://github.com/pkottenbreit/cs207/blob/main/Wiring%20Diagram.jpg)
 
 ## Appendix 2: code we used to enable DCS_BIOS using the Arduino Mega
-```
+``` cpp
 #define DCSBIOS_DEFAULT_SERIAL
 
 #include "DcsBios.h"
