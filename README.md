@@ -114,10 +114,10 @@ We implemented the first two solutions, but used the BBI-32 board in the final p
 Please refer to the appendix for our final wiring design, which is dead simple as it involves bridging the 31 inputs between 1 of the 32 pins on the BBI button box and GND.
 
 
+## User Manual
 
 ![](https://github.com/pkottenbreit/cs207/blob/main/ezgif-7-4845a1ead6e1.gif)
 
-## User Manual
 
 
 ### Step-By-Step Guide To Recreate This Project
@@ -145,10 +145,10 @@ Please refer to the appendix for our final wiring design, which is dead simple a
 
 
 
+## Going Forward
 
 ![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201207_211711012.jpg)
 
-## Going Forward
 
 ### Final Solution, WHY
 To fit plug-and-play principle and make our project as robust (system-integrated) as possible, we went with the no-code solution
