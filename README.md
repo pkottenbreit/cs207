@@ -106,7 +106,7 @@ Since our objectives were logically impossible (contradictory) to fully achieve,
 
 We designed 3 different ways to accomplish our objective, each with their own drawbacks.
 1. DCS_BIOS Server + Library, running on an Arduino Mega
-2. BBI-32 "Button Box Input", 
+2. BBI-32 "Button Box Interface", 
 3. Basic Arduino Joystick + JoyToKey.exe extended functionality
 
 We implemented the first two solutions, but used the BBI-32 board in the final package to eliminate the need to install and run software on the gaming computer.
