@@ -133,28 +133,45 @@ A final note to the marker of this project: if at this point you are finding our
 
 ## Step-By-Step Guide To Recreate This Project
 
-### Step 1: Gather the needed materials
+### Step 1: Gather the needed materials and tools
 ```
- - material 1
- - material 2
- - material 3
-```
-
-### Step 2:
-```
-
-
-```
-
-### Step 3:
+ - BBI-32 Microcontroller Board (or an Arduino Mega, or a Pro-Micro/Nano/Uno if your button configuration is compatible with a matrix)
+ - 4 big buttons
+ - 4 3-position temporary switches
+ - 2 3-position switches
+ - 13 2-position switches
+ - spool of 22-gauge wire and a good wire stripper (get multiple colours from a 22-4 telephone cable, to cable manage)
+ - box construction material and tools needed to fabricate
+ - soder & sodering iron
 ```
 
+### Step 2: Design, cut, and assemble your housing and button boxes
+```
+If you are modifying your design to better fit the games you are going to play, you will have to design your own blueprint.
+If you have a CNC machine available, learn how to use a CAD environment, slicer, and how to generate your G-code for the CNC program.
 ```
 
+### Step 3: Assemple the wiring circuit
+```
+Mount all switches, buttons, and any other shennanigans you have added to the design.
+Be sure to orient them the same way so that down means "off" consistently. Use the alignment tab to ensure this.
+If you modified the design, follow your new wiring circuit.
+Our board had enough inputs to wire each input directly.
+Wire the ground of each button/switch in a long chain to save on wire and cable confusion.
+```
 
+### Step 4: Implement any code that your solution ended up using
+If you fly with DCS, we highly recommend that you check out [DCS_BIOS](https://dcs-bios.readthedocs.io/en/latest/).
+They provide great documentation, a localhost DCS server, and an Arduino library which makes programming very simple to implement and change.
 
+If you are using the BBI-32 component, there is no code to implement (or test)..
 
-
+### Step 4: Test out your hardware, for at least 2 hours
+```
+It's hard to argue with 'homework', and this is one exercise you do not want to miss.
+To ensure that there are no sneaky bugs or game incompatibilities, make sure to play your favourite games and make use of every button.
+All for school credit, of course.
+```
 
 # Going Forward
 
@@ -162,9 +179,6 @@ A final note to the marker of this project: if at this point you are finding our
 
 
 ## How our expectations compared to reality
-
-### Major barriers encountered
-dsfas
 
 
 ### How our timeline shifted
@@ -185,6 +199,9 @@ Nov 28 | 12 hours of testing in-game is complete | Nov 21
 n/a | DCS_BIOS solution is implemented and coded | Nov 28
 n/a | 12 hours of testing in-game is complete on new DCS_BIOS system | Nov 28
 n/a | Joy2Key solution is implemented | n/a
+
+### Major barriers encountered
+This project sailed by quite easily. Although the timeline shifted slightly, there was nothing outside the bounds of 'reasonable'. We changed strategies about 4 times before settling on the simplest and most robust solution. Am I glad that we did not go ahead with daisy-chaining multiple arduinos via the "Wire" library to virtually expand the number of I/O ports. Although I would have liked to create a general purpose device that could communicate two-ways with most games, this simply isn't supported by the majority of games out there. For now, using a MEGA with DCS-BIOS will have to do.
 
 ## What we would do differently next time
 
