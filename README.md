@@ -114,28 +114,32 @@ We implemented the first two solutions, but used the BBI-32 board in the final p
 Please refer to the appendix for our final wiring design, which is dead simple as it involves bridging the 31 inputs between 1 of the 32 pins on the BBI button box and GND.
 
 
-## User Manual
+
+
+
+
+# User Manual
 
 ![](https://github.com/pkottenbreit/cs207/blob/main/ezgif-7-4845a1ead6e1.gif)
 
 
 
-### Step-By-Step Guide To Recreate This Project
+## Step-By-Step Guide To Recreate This Project
 
-#### Step 1: Gather the needed materials
+### Step 1: Gather the needed materials
 ```
  - material 1
  - material 2
  - material 3
 ```
 
-#### Step 2:
+### Step 2:
 ```
 
 
 ```
 
-#### Step 3:
+### Step 3:
 ```
 
 ```
@@ -145,16 +149,18 @@ Please refer to the appendix for our final wiring design, which is dead simple a
 
 
 
-## Going Forward
+# Going Forward
 
 ![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201207_211711012.jpg)
 
 
-### Final Solution, WHY
-To fit plug-and-play principle and make our project as robust (system-integrated) as possible, we went with the no-code solution
+## How our expectations compared to reality
 
-Additional recommmendations to further improve this project.
-Discussion of our initial milestones vs. actual dates.
+### Major barriers encountered
+dsfas
+
+
+### How our timeline shifted
 
 Target Date | Milestone | Actual Date
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -172,3 +178,18 @@ Nov 28 | 12 hours of testing in-game is complete | Nov 21
 n/a | DCS_BIOS solution is implemented and coded | Nov 28
 n/a | 12 hours of testing in-game is complete on new DCS_BIOS system | Nov 28
 n/a | Joy2Key solution is implemented | n/a
+
+## What we would do differently next time
+
+
+
+
+## Recommended extensions going forward
+
+Additional recommmendations to further improve this project.
+
+To improve upon our design and accomplish more,
+
+
+
+
