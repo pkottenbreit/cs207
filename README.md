@@ -111,7 +111,7 @@ We designed 3 different ways to accomplish our objective, each with their own dr
 
 We implemented the first two solutions, but used the BBI-32 board in the final package to eliminate the need to install and run software on the gaming computer.
 
-Please refer to the appendix for our final wiring design, which is dead simple as it involves bridging the 31 inputs between 1 of the 32 pins on the BBI-32 and GND.
+Please refer to Appendix 1 for our final wiring design, which is dead simple as it involves bridging the 31 inputs between 1 of the 32 pins on the BBI-32 and GND.
 
 Additionally, it should be noted that we went above and beyond what is expected for the presentation component of our project, and used a laser CNC machine to fabricate custom-designed wooden panels to house our controller.
 
@@ -179,7 +179,7 @@ You can also label these wires when using DCS-BIOS, to make it easier to know wh
 ### Step 4: Implement any code that your solution ended up using
 If you fly with DCS, we highly recommend that you check out [DCS_BIOS](https://dcs-bios.readthedocs.io/en/latest/).
 They provide great documentation, a localhost DCS server, and an Arduino library which makes programming very simple to implement and change.
-We have some code avaliable that we used for our specific button box.  This was done using an Arduino Mega.
+See Appendix 2 for the code that we wrote to Map DCS_BIOS to our specific button box and run on an Arduino Mega.
 
 If you are using the BBI-32 component, there is no code to implement (or test).  However, you will need to bind each function of the box in whichever game you choose.  This was avoided in DCS-BIOS, as it was hardcoded in.
 
@@ -241,5 +241,29 @@ Add a couple potentiometers including one on the side to control the LED brightn
 This gives us better control over analog air control surfaces such as wing sweep, which is currently handled by holding the temporary switches.
 Additionally, we could use the potentiometer readings to control an array of indicator LEDs to create a dashboard on the box that is independent of the game (potentiometer = fixed range, no need for in-game feedback)
 
+## Contributions of Group Members
+### Braden
+Specified the project requirements.
+Purchased the parts list and designed the box design.
+Created the design, converted to G Code, and cut the box panels in Saskatoon.
+Soldered the ground wire to the inputs sensors, and input sensors to the device.
+Filmed B-roll and in-game footage
+Supplied the rich songs and title slides.
+Edited the video, with feedback from Philip
+
+### Philip
+Researched and designed 4 alternate software solutions (DCS-BIOS, Basic Joystick, JoyToKey extension, Serial to Key using python pyserial)
+Researched and designed 4 alternate hardware solutions (basic Arduino, BBI-32, rewire an existing controller, connect multiple Arduinos with Wire to expand i/o).
+Experimented with pyserial before we determined that there should be no host-machine software to use our controller.
+Analyzed the drawbacks of each solution and validated the top two against Braden's requirements.
+Debugged the 3-position switch pin-out and determined the correct configuration.
+Attempted to play DCS_BIOS, and enjoyed the head-tracking infared setup.
+Wrote the project write-up, with feedback from Braden
+
+# Appendices
+
+## Appendix 1: final wiring design using Leo Bodnar BBI-32
+
+## Appendix 2: code we used to enable DCS_BIOS using the Arduino Mega
 
 
