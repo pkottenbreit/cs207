@@ -72,7 +72,7 @@ R |
 #### Do-it-yourself Projects
 
 Project | Website | Difficulty | Price | Drawback
-:-----:|:-----:|:-----:|:-----:
+:-----:|:-----:|:-----:|:-----:|:-----:
 [Virtual Button Box](http://www.stryder-it.de/simdashboard/help/en/For_PC_Gamers/Advanced/Create_a_virtual_Button_Box_for_Microsoft_Flight_Simulator) | www.stryder-it.de | Easy | Free | Virtual
 
 
