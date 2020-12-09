@@ -71,6 +71,7 @@ Logitech | [G Saitek Pro](https://www.newegg.ca/p/N82E16826197233?item=N82E16826
 ShakePrint | [ClassEcho](https://www.etsy.com/ca/listing/861158855/class-echo-microsoft-flight-simulator) | $100.00 | price
 TotalControls | [Multifunction Button Box](https://www.hackster.io/news/total-controls-multi-function-button-box-brings-switches-knobs-and-more-to-any-usb-capable-system-6485588e5cd3) | $452.71 | price
 BlackHog.com | [b-explorer Model B](https://www.black-hog.com/product/b-explorer-04/) | $200.25 | price
+DSD | [FLT1](https://www.rseat-europe.com/DSD-Flight-Series-FLT1-ButtonBox-FlightSim-Hardware) | $296.14 | price
 
 
 
@@ -84,33 +85,33 @@ Project | Website | Difficulty | Price | Biggest Drawback
 [68-Input USB Control Panel](https://imgur.com/a/PPfPDja) | [imgur.com](imgur.com) | Hard | $$$ | Custom Printed PCB
 [KerbalController](https://www.instructables.com/KerbalController-a-Custom-Control-Panel-for-Rocket/) | [instructables.com](instructables.com) | Hard | $$$ | Not launching rockets
 [Button Box for Flight Simulator](https://www.thingiverse.com/thing:4367136) | [thingiverse.com](www.thingiverse.com) | Easy | $$ | Needs 3D Printer
+["Sim Racing Button Box" project by Hobbylex on instructables.com](https://www.instructables.com/Sim-Racing-Button-Box/) | [instructables.com](instructables.com) | Med | $$ | Matrix limits simultaneous presses
 [Universal UFC](https://www.instructables.com/Universal-UFC-for-Plane-Simulators-for-Less-Than-1/) | [instructables.com](instructables.com) | Med | $$ | 
 
 
 
-
-
-
-
-Loren ipsum
 #### Attribution
-This project is based on the ["Sim Racing Button Box" project by Hobbylex on instructables.com](https://www.instructables.com/Sim-Racing-Button-Box/)
+This project is based on the Universal UFC Project by lwalterthum on the site Instructables.com.
+
 #### Academic references to the above web pages
-Loren ipsum
+I do not know how to "academic reference" this... List of works cited?
+
+
 
 ### Our design process
-After specifying our project requirements, we were able to survey the set of existing solutions
-Our modification to improve existing products for less.
-Because flight controls (implemented as switched) need to be left on, we modified the design to no longer require a matrix. We designed 3 different ways to accomplish our objective and modification, each with their own drawbacks.
+We followed the Software Engineering process as taught to Philip in CS 372.
+We went with an idealized Waterfall Process Model. We made this choice to reduce wasted materials, save time for shipping, and save money on testing. We were able to do this as we had a highly-defined and well-understood upfront goal. After defining our exact project objectives (requirements specification), we were able to fully design the box and order our materials list. Since our primary objective and secondary objectives were well-defined, we compared the set of existing solutions and selected the one that met our requirements best, for the least cost of time and money.
 
+Since our objectives were logically impossible (contradictory) to fully achieve, none of the available solutions could fit those objectives. We wanted a system that we could plug-and-play without any code installation, but this is fundamentally incompatible with having control over the specific inputs and how they are interpretted prior being transmitted as a Joystick. The no code solution implemented a unique serial number that would allow the PC to save its configuration automatically, but this meant the device had no programability. Finally, we could not achieve the goal of actuating in-game signals without installing software on the host computer to virtually sense the game.
 
+We designed 3 different ways to accomplish our objective, each with their own drawbacks.
+1. DCS_BIOS Server + Library, running on an Arduino Mega
+2. BBI-32 "Button Box Input", 
+3. Basic Arduino Joystick + JoyToKey.exe extended functionality
 
+We implemented the first two solutions, but used the BBI-32 board in the final package to eliminate the need to install and run software on the gaming computer.
 
-
-
-
-
-
+Please refer to the appendix for our final wiring design, which is dead simple as it involves bridging the 31 inputs between 1 of the 32 pins on the BBI button box and GND.
 
 
 
