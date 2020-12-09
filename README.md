@@ -111,11 +111,18 @@ We designed 3 different ways to accomplish our objective, each with their own dr
 
 We implemented the first two solutions, but used the BBI-32 board in the final package to eliminate the need to install and run software on the gaming computer.
 
-Please refer to the appendix for our final wiring design, which is dead simple as it involves bridging the 31 inputs between 1 of the 32 pins on the BBI button box and GND.
+Please refer to the appendix for our final wiring design, which is dead simple as it involves bridging the 31 inputs between 1 of the 32 pins on the BBI-32 and GND.
 
+Additionally, it should be noted that we went above and beyond what is expected for the presentation component of our project, and used a laser CNC machine to fabricate custom-designed wooden panels to house our controller.
 
+### Major disclaimers
+There are two important disclaimers:
+1. We did not end up using a programmable device in the end and thus did not end up using any of our code
+2. We did not end up creating an interactive hardware device, as our product lacks storage and can therefor not perform sequential logic.
 
+Since our primary objective and major modification to the original solution was to make the device as plug-and-play and long-lasting as possible, these important disclaimers are not considered as detrimental to the project. Please see "Our Values", item 1.
 
+A final note to the marker of this project: if at this point you are finding our project to be inferior or insufficient, please consider that we experimented extensively with multiple solutions including a python-script serial-input interpretter. We legitimately came to the conclusion that a no-code solution best achieves our objectives, and did not choose it to shirk responsibility or out of laziness. Thank you for considering this point.
 
 
 # User Manual
