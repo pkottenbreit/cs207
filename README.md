@@ -1,20 +1,4 @@
-## Requirements of this Project Writeup
 
-10-13 pages: shorter is OK it is says everything we need it to (but this is unlikely)
-
-The following are appendices and do not contribute to page count
- - circuit designs;
- - code listings for all code; (excluding publicly available libraries you included)
- - photographs of implementated circuits;
- - physical hardware designs;
- 
- 
- 
- 
- 
- 
- 
- 
 # CS 207 Final Project
 
 Feel free to check out our youtube video [HERE](https://youtu.be/zA_YTGeoQcE).
