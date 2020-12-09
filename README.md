@@ -162,24 +162,18 @@ Wire the ground of each button/switch in a long chain to save on wire and cable 
 Before you start wiring, you should learn how to solder if you already don't know.  Soldering is a useful skill for whenever you want to hack together your own projects.
 
 The first thing you should do when wiring is wire all your switches and buttons to ground.  In our case, we wired all the switches to one common ground, and the buttons seperate.  The main reason for that was due to the height difference in ground pins for each of the buttons vs that of the switches.  
-The picture below was taken when all the switches were wired to ground.  The wire used was all old telephone wire.  Braden preferred to work with solid wires over braided.
-
-![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201121_043353100.jpg)
+The picture in Appendix 3 was taken when all the switches were wired to ground.  The wire used was all old telephone wire.  We prefer to work with solid wires over braided.
 
 The only problem that we ran into was that we didn't check the pinout for our fancy, 3 position ON/ON/On switch (Also wired wrong in the above picture).  This ended up causing issues, until we realized that we wired the two switches totally wrong.  However, it was not very difficult to fix.  That's something to look out for.  Always check the pinouts of your parts.
 
-Once you have wired everything to ground, it's time to throw on the rest of the wires.  These can be of varying length, however they should all be somewhat simmilar in length so that you don't have to bend any wires short, or strecth out any shorter wires.
+Once you have wired everything to ground (Appendix 3), it's time to throw on the rest of the wires.  These can be of varying length, however they should all be somewhat simmilar in length so that you don't have to bend any wires short, or strecth out any shorter wires.
 
-![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201125_211719478.jpg)
-
-You can also label these wires when using DCS-BIOS, to make it easier to know which pins you are using for what specific control.  See below for example.
-
-![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201205_040818458.jpg)
+You can also label these wires when using DCS-BIOS, to make it easier to know which pins you are using for what specific control.  See Appendix 4 for example.
 
 ### Step 4: Implement any code that your solution ended up using
 If you fly with DCS, we highly recommend that you check out [DCS_BIOS](https://dcs-bios.readthedocs.io/en/latest/).
 They provide great documentation, a localhost DCS server, and an Arduino library which makes programming very simple to implement and change.
-See Appendix 2 for the code that we wrote to Map DCS_BIOS to our specific button box and run on an Arduino Mega.
+See Appendix 5 for the code that we wrote to Map DCS_BIOS to our specific button box and run on an Arduino Mega.
 
 If you are using the BBI-32 component, there is no code to implement (or test).  However, you will need to bind each function of the box in whichever game you choose.  This was avoided in DCS-BIOS, as it was hardcoded in.
 
@@ -265,7 +259,16 @@ Wrote the project write-up, with feedback from Braden
 ## Appendix 1: final wiring design using Leo Bodnar BBI-32
 ![](https://github.com/pkottenbreit/cs207/blob/main/Wiring%20Diagram.jpg)
 
-## Appendix 2: code we used to enable DCS_BIOS using the Arduino Mega
+## Appendix 2: Telephone wire used
+![](![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201121_043353100.jpg)
+
+## Appendix 3: Simple to wire all to ground
+![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201125_211719478.jpg)
+
+## Appendix 4: Label your wires
+![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201205_040818458.jpg)
+
+## Appendix 5: code we used to enable DCS_BIOS using the Arduino Mega
 ``` cpp
 #define DCSBIOS_DEFAULT_SERIAL
 
