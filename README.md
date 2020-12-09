@@ -137,7 +137,7 @@ A final note to the marker of this project: if at this point you are finding our
 ```
  - BBI-32 Microcontroller Board (or an Arduino Mega, or a Pro-Micro/Nano/Uno if your button configuration is compatible with a matrix)
  - 4 big buttons
- - 4 3-position temporary switches
+ - 4 3-position momentary switches
  - 2 3-position switches
  - 13 2-position switches
  - spool of 22-gauge wire and a good wire stripper (get multiple colours from a 22-4 telephone cable, to cable manage)
@@ -200,12 +200,16 @@ n/a | DCS_BIOS solution is implemented and coded | Nov 28
 n/a | 12 hours of testing in-game is complete on new DCS_BIOS system | Nov 28
 n/a | Joy2Key solution is implemented | n/a
 
+We met all of our major milestones, although some were pushed back by up to a week to accomodate late shipping, changing plans, and a snow-delayed visit to the CNC machine in Saskatoon.
+
 ### Major barriers encountered
 This project sailed by quite easily. Although the timeline shifted slightly, there was nothing outside the bounds of 'reasonable'. We changed strategies about 4 times before settling on the simplest and most robust solution. Am I glad that we did not go ahead with daisy-chaining multiple arduinos via the "Wire" library to virtually expand the number of I/O ports. Although I would have liked to create a general purpose device that could communicate two-ways with most games, this simply isn't supported by the majority of games out there. For now, using a MEGA with DCS-BIOS will have to do.
 
 ## What we would do differently next time
 
-
+skip arduino, go for pre-programmed directly
+Make the box heavier, shorter, and with rubber feet to prevent sliding.
+more buttons / more generalized and less locked in for DCS
 
 
 ## Recommended extensions going forward
@@ -214,6 +218,9 @@ Additional recommmendations to further improve this project.
 
 To improve upon our design and accomplish more,
 
+Add a couple potentiometers including one on the side to control the LED brightness.
+This gives us better control over analog air control surfaces such as wing sweep, which is currently handled by holding the temporary switches.
+Additionally, we could use the potentiometer readings to control an array of indicator LEDs to create a dashboard on the box that is independent of the game (potentiometer = fixed range, no need for in-game feedback)
 
 
 
