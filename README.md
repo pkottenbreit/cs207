@@ -111,7 +111,7 @@ We designed 3 different ways to accomplish our objective, each with their own dr
 
 We implemented the first two solutions, but used the BBI-32 board in the final package to eliminate the need to install and run software on the gaming computer.
 
-Please refer to Appendix 1 for our final wiring design, which is dead simple as it involves bridging the 31 inputs between 1 of the 32 pins on the BBI-32 and GND.
+Please refer to Appendix 1 for our final wiring design, which is dead simple as it involves bridging the 31 inputs between 1 of the 32 pins on the BBI-32 and GND. The BBI-32 only has Pullup Inputs, and the DCS_BIOS Library configures all Mega inputs as INPUT_PULLUP, and so the wiring diagram gets greatly simplified.
 
 Additionally, it should be noted that we went above and beyond what is expected for the presentation component of our project, and used a laser CNC machine to fabricate custom-designed wooden panels to house our controller.
 
@@ -123,6 +123,9 @@ There are two important disclaimers:
 Since our primary objective and major modification to the original solution was to make the device as plug-and-play and long-lasting as possible, these important disclaimers are not considered as detrimental to the project. Please see "Our Values", item 1.
 
 A final note to the marker of this project: if at this point you are finding our project to be inferior or insufficient, please consider that we experimented extensively with multiple solutions including a python-script serial-input interpretter. We legitimately came to the conclusion that a no-code solution best achieves our objectives, and did not choose it to shirk responsibility or out of laziness. Thank you for considering this point.
+
+
+
 
 
 # User Manual
@@ -184,6 +187,9 @@ To ensure that there are no sneaky bugs or game incompatibilities, make sure to 
 All for school credit, of course.
 ```
 
+
+
+
 # Going Forward
 
 ![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201207_211711012.jpg)
@@ -218,25 +224,30 @@ This project sailed by quite easily. Although the timeline shifted slightly, the
 
 ## What we would do differently next time
 
-skip arduino, go for pre-programmed directly - This is soemthing that would be up in the air, considering the nature of the next box we would produce.  If we wanted to produce a box specifically for DCS, with multiple analog inputs on top of small displays to dispay information along side that of the game, DCS-BIOS is absolutely the way to go.  On the other hand, the ability to avoid coding all together, the pre-programmed BBI board would be good for anything made to be overall universal.  However, if we were to make another box, it would likely be targeted specifically at DCS and would use DCS-BIOS.
+### To improve upon the execution of this project...
+...we would skip the fuss trying to get it working with an arduino, and go for the pre-programmed BBI-32 directly. This is soemthing that would be up in the air, considering the nature of the next box we would produce.  If we wanted to produce a box specifically for DCS, with multiple analog inputs on top of small displays to dispay information along side that of the game, DCS-BIOS is absolutely the way to go.  On the other hand, the ability to avoid coding all together, the pre-programmed BBI board would be good for anything made to be overall universal.  However, if we were to make another box, it would likely be targeted specifically at DCS and would use DCS-BIOS.
 
-Make the box heavier, shorter, and with rubber feet to prevent sliding. - This isn't a huge thing, and it's something that could also be changed rather easily.  As it stands, the box is very light and will slide around on the deck.  If you watch during the segment of our introduction video, you can see that the box needs to be braced whenever you try to flip a switch.  This is something that can be dealt with, but a minor inconvenience.
+### To improve upon the final experience...
+...we would make the box heavier, shorter, and with rubber feet to prevent sliding. This is something that could be added rather easily.  As it stands, the box is very light and will slide around on the deck.  If you watch during the segment of our introduction video, you can see that the box needs to be braced whenever you try to flip a switch.  This is something that can be dealt with, but a minor inconvenience.
 
-More buttons / more generalized and less locked in for DCS - This is something that also depends on the implication of the box.  Again, This one was mainly set up for DCS.  That being said, if we had more games in mind, we would have likely had more buttons than 4, and possibly even fewer switches.  
+### To improve upon the game compatibility...
+... we would add more buttons vs. switches, and make the configuration more generalized and less locked in for the F14 plane on DCS. This is something that also depends on the specific use case of the next box. Again, This one was mainly set up for DCS.  hat being said, if we had more games in mind, we would have likely had more buttons than 4, and possibly even fewer switches.  
 
 
 ## Recommended extensions going forward
 
-Additional recommmendations to further improve this project.
+Additional recommmendations to further improve this project, to improve upon our design and accomplish more:
 
-To improve upon our design and accomplish more,
+### Add a couple potentiometer inputs.
+This would provide better control over analog air control surfaces such as wing sweep, which is currently handled by holding the temporary switches.
 
-Add a couple potentiometers including one on the side to control the LED brightness.
-This gives us better control over analog air control surfaces such as wing sweep, which is currently handled by holding the temporary switches.
-Additionally, we could use the potentiometer readings to control an array of indicator LEDs to create a dashboard on the box that is independent of the game (potentiometer = fixed range, no need for in-game feedback)
+### Including one potentiometer on the side to control the LED brightness
+You could use the onboard potentiometer readings to control an array of LED indicators to illumine an on-box dashboard independent from the game (potentiometer = fixed range/position, no need for in-game feedback).
+
 
 ## Contributions of Group Members
 ### Braden
+```
 Specified the project requirements.
 Purchased the parts list and designed the box design.
 Created the design, converted to G Code, and cut the box panels in Saskatoon.
@@ -244,8 +255,10 @@ Soldered the ground wire to the inputs sensors, and input sensors to the device.
 Filmed B-roll and in-game footage
 Supplied the rich songs and title slides.
 Edited the video, with feedback from Philip
+```
 
 ### Philip
+```
 Researched and designed 4 alternate software solutions (DCS-BIOS, Basic Joystick, JoyToKey extension, Serial to Key using python pyserial)
 Researched and designed 4 alternate hardware solutions (basic Arduino, BBI-32, rewire an existing controller, connect multiple Arduinos with Wire to expand i/o).
 Experimented with pyserial before we determined that there should be no host-machine software to use our controller.
@@ -253,6 +266,7 @@ Analyzed the drawbacks of each solution and validated the top two against Braden
 Debugged the 3-position switch pin-out and determined the correct configuration.
 Attempted to play DCS_BIOS, and enjoyed the head-tracking infared setup.
 Wrote the project write-up, with feedback from Braden
+```
 
 # Appendices
 
