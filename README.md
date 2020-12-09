@@ -17,7 +17,7 @@ The following are appendices and do not contribute to page count
  
 # CS 207 Final Project
 
-
+Feel free to check out our youtube video [HERE](https://youtu.be/zA_YTGeoQcE).
 
 
 
@@ -151,7 +151,7 @@ If you are modifying your design to better fit the games you are going to play, 
 If you have a CNC machine available, learn how to use a CAD environment, slicer, and how to generate your G-code for the CNC program.
 ```
 
-### Step 3: Assemple the wiring circuit
+### Step 3: Assemble the wiring circuit
 ```
 Mount all switches, buttons, and any other shennanigans you have added to the design.
 Be sure to orient them the same way so that down means "off" consistently. Use the alignment tab to ensure this.
@@ -159,14 +159,31 @@ If you modified the design, follow your new wiring circuit.
 Our board had enough inputs to wire each input directly.
 Wire the ground of each button/switch in a long chain to save on wire and cable confusion.
 ```
+Before you start wiring, you should learn how to solder if you already don't know.  Soldering is a useful skill for whenever you want to hack together your own projects.
+
+The first thing you should do when wiring is wire all your switches and buttons to ground.  In our case, we wired all the switches to one common ground, and the buttons seperate.  The main reason for that was due to the height difference in ground pins for each of the buttons vs that of the switches.  
+The picture below was taken when all the switches were wired to ground.  The wire used was all old telephone wire.  Braden preferred to work with solid wires over braided.
+
+![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201121_043353100.jpg)
+
+The only problem that we ran into was that we didn't check the pinout for our fancy, 3 position ON/ON/On switch (Also wired wrong in the above picture).  This ended up causing issues, until we realized that we wired the two switches totally wrong.  However, it was not very difficult to fix.  That's something to look out for.  Always check the pinouts of your parts.
+
+Once you have wired everything to ground, it's time to throw on the rest of the wires.  These can be of varying length, however they should all be somewhat simmilar in length so that you don't have to bend any wires short, or strecth out any shorter wires.
+
+![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201125_211719478.jpg)
+
+You can also label these wires when using DCS-BIOS, to make it easier to know which pins you are using for what specific control.  See below for example.
+
+![](https://github.com/pkottenbreit/cs207/blob/main/PXL_20201205_040818458.jpg)
 
 ### Step 4: Implement any code that your solution ended up using
 If you fly with DCS, we highly recommend that you check out [DCS_BIOS](https://dcs-bios.readthedocs.io/en/latest/).
 They provide great documentation, a localhost DCS server, and an Arduino library which makes programming very simple to implement and change.
+We have some code avaliable that we used for our specific button box.  This was done using an Arduino Mega.
 
-If you are using the BBI-32 component, there is no code to implement (or test)..
+If you are using the BBI-32 component, there is no code to implement (or test).  However, you will need to bind each function of the box in whichever game you choose.  This was avoided in DCS-BIOS, as it was hardcoded in.
 
-### Step 4: Test out your hardware, for at least 2 hours
+### Step 5: Test out your hardware, for at least 2 hours
 ```
 It's hard to argue with 'homework', and this is one exercise you do not want to miss.
 To ensure that there are no sneaky bugs or game incompatibilities, make sure to play your favourite games and make use of every button.
@@ -207,9 +224,11 @@ This project sailed by quite easily. Although the timeline shifted slightly, the
 
 ## What we would do differently next time
 
-skip arduino, go for pre-programmed directly
-Make the box heavier, shorter, and with rubber feet to prevent sliding.
-more buttons / more generalized and less locked in for DCS
+skip arduino, go for pre-programmed directly - This is soemthing that would be up in the air, considering the nature of the next box we would produce.  If we wanted to produce a box specifically for DCS, with multiple analog inputs on top of small displays to dispay information along side that of the game, DCS-BIOS is absolutely the way to go.  On the other hand, the ability to avoid coding all together, the pre-programmed BBI board would be good for anything made to be overall universal.  However, if we were to make another box, it would likely be targeted specifically at DCS and would use DCS-BIOS.
+
+Make the box heavier, shorter, and with rubber feet to prevent sliding. - This isn't a huge thing, and it's something that could also be changed rather easily.  As it stands, the box is very light and will slide around on the deck.  If you watch during the segment of our introduction video, you can see that the box needs to be braced whenever you try to flip a switch.  This is something that can be dealt with, but a minor inconvenience.
+
+More buttons / more generalized and less locked in for DCS - This is something that also depends on the implication of the box.  Again, This one was mainly set up for DCS.  That being said, if we had more games in mind, we would have likely had more buttons than 4, and possibly even fewer switches.  
 
 
 ## Recommended extensions going forward
